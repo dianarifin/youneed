@@ -65,7 +65,7 @@ body {
     .header-main {
         display: block;
         width: 100%;
-        height: 100%;
+        height: auto;
         min-height: 750px;
         box-sizing: border-box;
     }
@@ -210,7 +210,15 @@ body {
     .title-h2 {
         width: 100%;
         height: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
+    }
+
+    .second-h2 {
+        margin-top: 50px;
+    }
+
+    .second-h2 h2 {
+        font-size: 38px !important;
     }
 
     .title-h2 h2 {
@@ -225,7 +233,7 @@ body {
     .explained-product {
         display: inline-block;
         width: 100%;
-        height: 400px;
+        height: auto;
         margin-bottom: 30px;
         background-color: white;
         box-sizing: border-box;
@@ -305,6 +313,33 @@ body {
 
 }
 
+@media screen and (min-width: 1281px) {
+    /* hi-res laptops and desktops, big landscape tablets, laptops, and desktops*/ 
+
+    .header-main {
+        min-height: 900px;
+    }
+
+    .background-top {
+        height: 120%;
+        background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
+        background-position-y: -200px;
+    }
+
+
+    .main-body {
+        margin-top: 150px;
+    }
+
+    .main-info {
+        font-size: 18px;
+    }
+
+
+}
+
+
+
 
 @media screen and (max-width: 1280px) {
     /* hi-res laptops and desktops, big landscape tablets, laptops, and desktops*/ 
@@ -338,8 +373,10 @@ body {
 
     .background-top {
         background-position-y: -30px;
-        background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
+        width: 100%;
         height: 75%;
+        background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
+   
     }
 
     .box-product .title-explained {
@@ -354,7 +391,20 @@ body {
 
 }
 
+@media screen and (max-width: 800px) {
+
+    .background-top {
+        height: 70%;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
+
+    .background-top {
+        height: 90%;
+    }
 
     .box-product img {
         width: auto;
@@ -439,6 +489,8 @@ body {
 
 }
 
+
+
 @media screen and (max-width: 480px) {
     
     .header-main {
@@ -456,6 +508,61 @@ body {
 
     .main-info {
         font-size: 16px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .background-top {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .background-top {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .background-top {
+        width: 100%;
+        height: 130%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .background-top {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .background-top {
+        width: 100%;
+        height: 170%;
     }
 
 
