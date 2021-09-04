@@ -317,8 +317,9 @@ body {
 
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1300px) {
     .background-top {
+        background-position-y: -40px;
         height: 140%;
     }
 }
@@ -333,7 +334,7 @@ body {
     .background-top {
         height: 120%;
         background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
-        background-position-y: -300px;
+        background-position-y: -270px;
     }
 
 
@@ -371,7 +372,7 @@ body {
     .background-top {
         background-position-y: -20px;
         background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
-        height: 75%;
+        height: 120%;
     }
 
 }
@@ -443,7 +444,7 @@ body {
     .background-top {
         width: 120%;
         height: 140%;
-        background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
+        background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-3.png");
     }
 
     .header-top {
@@ -539,7 +540,7 @@ body {
 
     .background-top {
         width: 100%;
-        height: 110%;
+        height: 115%;
     }
 
 
@@ -550,7 +551,7 @@ body {
 
     .background-top {
         width: 100%;
-        height: 130%;
+        height: 140%;
     }
 
 
