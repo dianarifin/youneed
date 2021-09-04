@@ -76,7 +76,7 @@ body {
         width: 100%;
         max-width: 100%;
         height: 120%;
-        background-image: url("/Antarmuka/style/img/background-header-2.png");
+        background-image: url("/img/background-header-2.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -221,7 +221,7 @@ body {
 
     .background-top {
         height: 100%;
-        background-image: url("/Antarmuka/style/img/background-header-1.png");
+        background-image: url("/img/background-header-1.png");
         background-position-y: -170px;
     }
 
@@ -263,7 +263,7 @@ body {
 
     .background-top {
         height: 100%;
-        background-image: url("/Antarmuka/style/img/background-header-1.png");
+        background-image: url("/img/background-header-1.png");
     }
 
     .header-top .menu-left {
