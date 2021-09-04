@@ -284,11 +284,11 @@ body {
     /* hi-res laptops and desktops, big landscape tablets, laptops, and desktops*/ 
 
     .header-main {
-        min-height: 900px;
+        min-height: 1000px;
     }
 
     .background-top {
-        height: 100%;
+        height: 120%;
         background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
         background-position-y: -170px;
     }
@@ -308,11 +308,16 @@ body {
 
 @media screen and (max-width: 1280px) {
     /* hi-res laptops and desktops, big landscape tablets, laptops, and desktops*/ 
+    .header-main {
+        height: auto;
+        min-height: 900px;
+    }
 
     .background-top {
-        background-position-y: -20px;
+        background-position-y: -40px;
         background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
-        height: 120%;
+        background-position: top;
+        height: 130%;
     }
 }
 
@@ -328,7 +333,7 @@ body {
 @media screen and (max-width: 960px) {
 
     .header-main {
-        min-height: 700px;
+        min-height: 800px;
     }
 
     .background-top {
@@ -336,9 +341,36 @@ body {
         background-image: url("https://raw.githubusercontent.com/dianarifin/youneed/main/img/background-header-1.png");
         height: 75%;
     }
+
+    .box-product .title-explained {
+        font-size: 23px;
+        padding-right: 5px;
+    }
+
+    .box-product .desc-explained {
+        font-size: 17px;
+        padding-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+
+    .box-product img {
+        width: auto;
+        height: 60px;
+    }
+
+    .box-product .title-explained {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    .box-product .desc-explained {
+        font-size: 15px;
+        padding-right: 15px;
+    }
+
 
 }
 
@@ -401,6 +433,7 @@ body {
 
     .box-product .desc-explained {
         font-size: 17px;
+        padding-right: 15px;
     }
 
 
@@ -414,7 +447,7 @@ body {
 
     .background-top {
         width: 120%;
-        height: 120%;
+        height: 125%;
     }
 
     .big-title h2 {
