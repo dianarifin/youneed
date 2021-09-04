@@ -319,12 +319,11 @@ body {
 
 @media screen and (min-width: 1300px) {
 
-
-
     .background-top {
-        background-position-y: -40px;
-        height: 120%;
+        background-position-y: -40px !important;
+        height: 120% !important;
     }
+
 }
 
 @media screen and (min-width: 1285px) {
