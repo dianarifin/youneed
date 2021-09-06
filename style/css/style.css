@@ -118,7 +118,7 @@ body {
     .header-top .menu-left {
         width: auto;
         height: auto;
-        padding-top: 12px;
+        padding-top: 5px;
         align-items: center;
         float: right;
         box-sizing: border-box;
@@ -129,9 +129,23 @@ body {
         color: white;
         font-size: 16px;
         font-weight: 500;
-        padding-left: 35px;
+        padding-left: 37px;
         box-sizing: border-box;
     }
+
+    .menu-left nav a img {
+        position: absolute;
+        margin-top: -13px;
+        margin-left: -3px;
+        color: white;
+        width: 17px;
+    }
+
+    .menu-left nav a:hover {
+        color: black !important;
+    }
+
+
 
 
 /* header and main style  */
@@ -281,6 +295,201 @@ body {
 
 /* footer main  */
 
+    .footer {
+        display: inline-block;
+        margin-top: 150px;
+        padding-bottom: 50px;
+        width: 100%;
+        height: auto;
+        background-color: #161616;
+        box-sizing: border-box;
+    }
+
+    .footer .footer-border {
+        width: 100%;
+        height: auto;
+        padding-bottom: 60px;
+        border-bottom: white solid 1px;
+        box-sizing: border-box;
+    }
+
+    .footer .main-footer {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .footer .footer-top {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin-top: 30px !important;
+        box-sizing: border-box;
+    }
+
+    .footer-top .footer-top-one {
+        float: left;
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-top .footer-top-two {
+        float: left;
+        width: 50%;
+        padding-left: 90px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .footer-top-one h3 {
+        color: white;
+        font-size: 26px;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+
+    .footer-top-one h3.first {
+        margin-bottom: 10px;
+    }
+
+    .footer-top-one h3.second {
+        color: #162BE9;
+        font-size: 22px;
+    }
+
+    .footer-top-two h3, .footer-top-two p {
+        color: white;
+    }
+
+    .footer-top-two h3 {
+        font-size: 26px;
+        line-height: 1.4;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .footer-top-two p {
+        font-size: 14px;
+        font-weight: Medium;
+        color: #BDBDBD;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .footer-top-two .email-subs .input-email {
+        width: 50%;
+        height: 35px;
+        border-radius: 4px;
+        border: none !important;
+        padding: 1px 10px 0px 10px;
+        font-size: 14px;
+        font-weight: medium;
+        color: #BDBDBD;
+        box-sizing: border-box;
+    }
+
+    .footer-top-two .email-subs .submit-email {
+        width: 100px;
+        height: 35px;
+        border-radius: 4px;
+        border: none !important;
+        margin-left: 10px;
+        padding: 1px 10px 0px 10px;
+        font-size: 16px;
+        font-weight: Bold;
+        color: white;
+        background-color: #162BE9;
+        box-sizing: border-box;
+    }
+
+    .footer-top-two .email-subs .input-email:focus {
+        border: none !important;
+    }
+
+    .footer-top-two .email-subs .submit-email:hover {
+        cursor: pointer;
+    }
+
+    .footer-bottom {
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-bottom-one, .footer-bottom-two, .footer-bottom-three, .footer-bottom-four {
+        width: 25%;
+        height: auto;
+        float: left;
+    }
+
+    .footer-bottom-one img {
+        width: 90px;
+        height: auto;
+    }
+
+    .footer-bottom-two nav a,  .footer-bottom-three nav a{
+        display: block;
+        margin-bottom: 18px;
+        line-height: 1.4;
+        text-decoration: none;
+        color: white;
+        font-weight: regular;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+
+    .footer-bottom-four h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .footer-bottom-four p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #727272;
+    }
+
+    .footer-credit {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-credit .footer-credit-site {
+        width: 50%;
+        height: auto;
+        float: left;
+        font-size: 11px;
+        color: #BDBDBD;
+        box-sizing: border-box;
+    }
+
+    
+    .footer-credit .footer-credit-made {
+        width: auto;
+        height: auto;
+        float: right;
+        font-size: 11px;
+        color: #BDBDBD;
+        box-sizing: border-box;
+    }
+
+    .footer-credit .footer-credit-made img {
+        position: relative;
+        margin-right: 5px;
+        display: inline-flex;
+        width: 12px;
+        box-sizing: border-box;
+    }
+
+
+
+
 
 
 
@@ -397,6 +606,20 @@ body {
         padding-right: 20px;
     }
 
+    .footer-top-one h3 {
+        font-size: 23px;
+    }
+
+    .footer-top-two h3 {
+        font-size: 23px;
+    }
+
+    .footer-top-two p {
+        font-size: 13px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -428,6 +651,28 @@ body {
         font-size: 15px;
         padding-right: 15px;
     }
+
+    .footer-border {
+        display: none !important;
+    }
+
+    .footer-top {
+        display: none !important;
+    }
+
+    .footer-bottom-two nav a, .footer-bottom-three nav a {
+        font-size: 14px;
+    }
+
+    .footer-bottom-four h4 {
+        font-size: 17px;
+    }
+    
+    .footer-bottom-four p {
+        font-size: 13px;
+    }
+
+
 
 
 }
@@ -495,6 +740,11 @@ body {
     }
 
 
+    .footer-bottom-one {
+        display: none !important;
+    }
+
+
 }
 
 
@@ -518,6 +768,28 @@ body {
         font-size: 16px;
     }
 
+    .footer-bottom-two, .footer-bottom-three, .footer-bottom-four {
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .footer-bottom-two nav a, .footer-bottom-three nav a {
+        align-items: center;
+    }
+
+    .footer-bottom-four {
+        margin-top: 10px;
+    }
+
+    .footer-credit-site {
+        display: none !important;
+    }
+
+    .footer-credit-made {
+        width: 100%;
+        float: left !important;
+    }
 
 }
 
