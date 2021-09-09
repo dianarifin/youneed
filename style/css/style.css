@@ -198,6 +198,7 @@ body {
     }
 
     .main-body-container {
+        width: 100%;
         margin-left: 40px;
         margin-right: 40px;
         box-sizing: border-box;
@@ -985,8 +986,9 @@ body {
 
 
     .main-body {
-        display: block;
         margin-top: 20px;
+        margin-left: unset;
+        margin-right: unset;
     }
 
     .main-body .main-body-one {
