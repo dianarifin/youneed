@@ -991,6 +991,12 @@ body {
         margin-right: unset;
     }
 
+    .main-body-container {
+        margin-right: 40px !important;
+        margin-left: 40px !important;
+    }
+
+
     .main-body .main-body-one {
         margin-top: 20px;
         width: 100% !important;
