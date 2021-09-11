@@ -203,7 +203,7 @@ body {
     }
 
     .your-url {
-        width: auto;
+        width: 100%;
         height: auto;
         margin-bottom: 50px;
     }
@@ -1205,6 +1205,10 @@ body {
     .real-time-one {
         width: 50%;
         padding-right: 40px;
+    }
+
+    .detail .name-detail {
+        font-size: 18px;
     }
 
     /* dashboard  */
