@@ -250,12 +250,12 @@ body {
     }
 
     .main-url .url {
-        width: 180px;
+        width: 190px;
         float: left;
         align-items: center;
         color: #212121;
         margin-top: 5px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500 !important;
         border: unset !important;
         user-select: unset;
@@ -1369,10 +1369,11 @@ body {
         font-size: 17px;
     }
     .main-url .url {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .main-url .copy {
+        margin-left: 20px;
         font-size: 14px;
     }
 
