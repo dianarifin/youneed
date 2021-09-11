@@ -832,6 +832,10 @@ body {
         box-sizing: border-box;
     }
 
+    .footer-top-special {
+        display: none !important;
+    }
+
     .footer-top .footer-top-one {
         float: left;
         width: 50%;
@@ -891,6 +895,10 @@ body {
         font-weight: medium;
         color: #BDBDBD;
         box-sizing: border-box;
+    }
+
+    .email-subs .input-email:focus {
+        outline: unset;
     }
 
     .footer-top-two .email-subs .submit-email {
