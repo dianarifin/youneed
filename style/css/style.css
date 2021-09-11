@@ -187,7 +187,7 @@ body {
 /* body style  */
 
     .main-body {
-        display: flex;
+        display: block;
         margin-top: 75px;
         width: 100%;
         max-width: 1200px;
@@ -198,7 +198,6 @@ body {
     }
 
     .main-body-container {
-        width: 100%;
         margin-left: 40px;
         margin-right: 40px;
         box-sizing: border-box;
@@ -206,13 +205,14 @@ body {
 
     .big-title, .big-title-user {
         display: block;
-        width: 70%;
+        width: 80%;
         height: auto;
         box-sizing: border-box;
     }
 
     .big-title h2 {
         font-size: 45px;
+        padding-right: 100px;
         font-weight: bold;
         color: white;
         line-height: 1.2;
@@ -267,6 +267,16 @@ body {
         font-weight: regular;
         line-height: 1.6;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .main-info-user a {
+        text-decoration: none;
+        color: #1322B3;
+        font-weight: bold;
+    }
+
+    .main-info-user a:hover {
+        color: black;
     }
 
     .main-body-two form {
